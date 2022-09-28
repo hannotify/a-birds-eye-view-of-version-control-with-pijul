@@ -1,6 +1,19 @@
 <!-- .slide: data-background="img/background/usb-sticks.jpg" data-background-color="black" data-background-opacity="0.3"-->
 # Wrap-up
 
+## When To (Not) Use Pijul
+
+<section>
+        <h2>Now what?</h2>
+        <ul>
+        <li class="fragment">Git's snapshotting might be too technical for the average user. <strong>So try Pijul for a change!</strong></li>
+        </ul>
+        <aside class="notes">
+        <strong>Time Elapsed: 15 min.</strong>
+        
+        1. A lot of students in my "Git for developers" course are managers, test specialists, requirements engineers, Scrum Masters. And they struggle with Git's snapshot-based approach. Perhaps a patch-based approach like Pijul will suit them better.
+</section>
+
 ## Thank you! 🙂
 
 <table>
