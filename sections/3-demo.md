@@ -2,6 +2,11 @@
 
 # Demo
 
+note:
+**Time Elapsed:** 6 min.
+
+
+
 ---
 
 ## Demo

@@ -3,3 +3,7 @@
 # Comparison
 
 * Tabel die features met Git vergelijken
+
+note:
+**Time Elapsed:** 14 min.
+

@@ -10,9 +10,13 @@
         </ul>
         <aside class="notes">
         <strong>Time Elapsed: 15 min.</strong>
-        
+
         1. A lot of students in my "Git for developers" course are managers, test specialists, requirements engineers, Scrum Masters. And they struggle with Git's snapshot-based approach. Perhaps a patch-based approach like Pijul will suit them better.
 </section>
+
+note:
+
+**Time Elapsed:** 15 min.
 
 ## Thank you! 🙂
 
