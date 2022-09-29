@@ -20,8 +20,8 @@ note:
 
 note:
 
-So let's address the name first.
-...
+So let's address the name of this version control system first.
+[explain the name]
 
 ---
 
@@ -44,9 +44,9 @@ It was also in the VCS popularity graph that I showed you earlier.
 ## Quick facts
 
 <ul>
-    <li class="fragment fade-in-then-semi-out">written in Rust
-    <li class="fragment fade-in-then-semi-out">bootstrapped since April 2017
-    <li class="fragment fade-in-then-semi-out">free code hosting at 
+    <li>written in Rust
+    <li>bootstrapped since April 2017
+    <li>free code hosting at 
     <a href="https://nest.pijul.com">https://nest.pijul.com</a> 
 </ul>
 
@@ -55,7 +55,7 @@ Rust is one of the faster languages around, because it is a low-level language.
 Its performance is comparable to that of C++.
 
 Bootstrapped means that it is used for its own development.
-Like IntelliJ, they 'eat their own dog food'.
+So they 'eat their own dog food'.
 
 Hosting is available on the Pijul Nest.
 
@@ -69,10 +69,14 @@ Hosting is available on the Pijul Nest.
     <li class="fragment fade-in-then-semi-out">Applying or unapplying a patch <em>doesn't change</em> its identity.</li>
     <li class="fragment fade-in-then-semi-out">The end result of applying several patches is always the same, regardless of the order in which they were applied.</li>
     <li class="fragment fade-in-then-semi-out">Pijul keeps track of 'dependent patches'</li>
-    <li class="fragment fade-in-then-semi-out">No merges or rebases; applying a patch is like <code>git cherry-pick</code>.</li>
+    <li class="fragment fade-in-then-semi-out">No rebases, and merges are hardly needed; applying a patch is like <code>git cherry-pick</code>.</li>
 </ul>
 
 note:
+Let's zoom in on this "patch-oriented design".
+
+[walk through the bullet list]
+
 By contrast, Git doesn't store any patches.
 It stores snapshots of files and computes the differences when they are needed.
 
@@ -81,3 +85,36 @@ It stores snapshots of files and computes the differences when they are needed.
 <!-- .slide: data-background="img/snapshot-vs-patch.png" data-background-color="#555" data-background-size="contain"-->
 
 <https://www.katacoda.com/ysndr/scenarios/pijul/assets/comparison.png> <!-- .element class="attribution" -->
+
+---
+
+## If commits were bank transactions
+
+<table>
+        <tr>
+            <th/>
+            <th>snapshot</th>
+            <th>patch</th>
+        </tr>
+        <tr class="fragment">
+            <th align="right">initial balance</th>
+            <td align="right"><code>100</code></td>
+            <td align="right"><code>+100</code></td>
+        </tr>  
+        <tr class="fragment">
+            <th align="right">salary</th>
+            <td align="right"><code>400</code></td>
+            <td align="right"><code>+300</code></td>
+        </tr>
+        <tr class="fragment">
+            <th align="right">heating</th>
+            <td align="right"><code>0</code></td>
+            <td align="right"><code>-400</code></td>
+        </tr>
+</table>
+
+
+note:
+
+Snapshots store account balance, patches store deltas.
+Which means patch order doesn't matter for the final result.

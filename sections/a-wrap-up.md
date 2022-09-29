@@ -1,22 +1,28 @@
 <!-- .slide: data-background="img/background/usb-sticks.jpg" data-background-color="black" data-background-opacity="0.3"-->
-# Wrap-up
 
-## When To (Not) Use Pijul
-
-<section>
-        <h2>Now what?</h2>
-        <ul>
-        <li class="fragment">Git's snapshotting might be too technical for the average user. <strong>So try Pijul for a change!</strong></li>
-        </ul>
-        <aside class="notes">
-        <strong>Time Elapsed: 15 min.</strong>
-
-        1. A lot of students in my "Git for developers" course are managers, test specialists, requirements engineers, Scrum Masters. And they struggle with Git's snapshot-based approach. Perhaps a patch-based approach like Pijul will suit them better.
-</section>
+# Now what?
 
 note:
+**Time Elapsed:** 14 min.
 
-**Time Elapsed:** 15 min.
+---
+
+## When Do I Use Pijul?
+
+* For a hobby project, so you can get the feel of it <!-- .element: class="fragment fade-in-then-semi-out" data-fragment-index="1" -->
+* If your team members currently struggle with Git <!-- .element: class="fragment fade-in-then-semi-out" data-fragment-index="2" -->
+* If you spend too much time on rebasing, merging and conflict resolution <!-- .element: class="fragment fade-in-then-semi-out" data-fragment-index="3" -->
+* If you can self-host or use the Pijul Nest <!-- .element: class="fragment fade-in-then-semi-out" data-fragment-index="4" -->
+
+**Try Pijul for a change!** <!-- .element: class="fragment fade-in-then-semi-out" data-fragment-index="5" -->
+
+<https://pijul.org/manual/working_with_others.html> <!-- .element class="attribution fragment" data-fragment-index="4" -->
+
+note: 
+
+A lot of students in my "Git for developers" course are managers, test specialists, requirements engineers, Scrum Masters. And they struggle with Git's snapshot-based approach. Perhaps a patch-based approach like Pijul will suit them better.
+
+---
 
 ## Thank you! 🙂
 

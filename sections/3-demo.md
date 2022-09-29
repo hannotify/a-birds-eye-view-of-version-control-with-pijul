@@ -2,20 +2,12 @@
 
 # Demo
 
-note:
-**Time Elapsed:** 6 min.
-
-
-
----
-
-## Demo
-
 * Up and running
 * Recording patches
 * Reordering patches
 
 note:
+**Time Elapsed:** 6 min.
 
 ### Up and running
 

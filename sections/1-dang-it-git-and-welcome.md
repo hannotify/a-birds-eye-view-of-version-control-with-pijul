@@ -33,22 +33,25 @@ note:
 Quick show of hands - who of you is currently using Git?
 And who uses a different version control system?
 
-There's a lot to like about Git:
+Well, that's understandable!
+Because there's a lot to like about Git:
 
 * easy branching
-* fast
 * distributed nature (open-source development, work offline)
+* fast
 
 But do we like everything?
-Do we like...
+Do we like... for example...
 
 * amending commits? (or changing the message)
 * committing to the wrong branch and having to fix it?
-* running a diff when nothing happens?
+* running a diff when nothing happens? (`--staged`)
 * conflicts when merging or rebasing?
-* getting the same conflicts multiple times when dealing with long-lived branches?
-* fresh clones because the repo is too messed up to repair?
+* getting the same conflicts over and over again when we need long-lived branches?
+* having to do a fresh clone because the repo is too messed up to repair?
 * heated team debates on rebase vs. merge?
+
+Well... not particularly!
 
 ---
 
@@ -60,7 +63,6 @@ Do we like...
 [dangitgit.com](https://dangitgit.com) <!-- .element: class="fragment" -->
 
 note:
-
 Some days it's more like "Dang it, Git!" instead of "Yay, Git!"
 There's a website for that, by the way. (slide)
 
@@ -76,8 +78,6 @@ But, you know, as long as there isn't something better available, it'll probably
 
 ---
 
-# Teaching a Git course
-
 <!-- .slide: data-background="img/background/version-control-timeline.png" data-background-size="contain" data-background-color="white" -->
 
 <http://blog.plasticscm.com/2010/11/version-control-timeline.html> <!-- .element: class="attribution" -->
@@ -86,11 +86,11 @@ note:
 
 In fact, this is what I always say when teaching people about Git.
 This chart is from the Git course I regularly teach at Info Support.
-Sure enough, after 2005-2006, nothing seems to have happened in version control world.
+Sure enough, after 2005, nothing seems to have happened in version control world.
 
 In fact, I never even gave it a second thought, until a student asked me about it at the end of a particular course day.
 She said: "I like Git well enough, but what is new and cool in version control?"
 
-And because I didn't know the answer to her question, I started researching it and found a few newer version control systems.
-They were called Fossil and Pijul.
-This talk is about Pijul, and how its approach is different from Git's approach.
+And because I didn't know the answer to her question, I started researching it and found a newer version control systems.
+It was called Pijul.
+This talk is about Pijul, and how it's different from Git.
