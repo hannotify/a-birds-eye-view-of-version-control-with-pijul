@@ -27,6 +27,13 @@ A lot of students in my "Git for developers" course are managers, test specialis
 ## Thank you! 🙂
 
 <table>
+        <tr>
+                <td style="text-align: right; vertical-align: middle;"><img width="20%"
+                        data-src="img/icons/slide-deck.png" class="no-background" /></td>
+                <td style="vertical-align: middle;"><a
+                        href="https://nest.pijul.com/hannotify/a-birds-eye-view-of-version-control-with-pijul">nest.pijul.com/hannotify/a-birds-eye-view-of-version-control-with-pijul</a>
+                </td>
+        </tr>
     <tr>
         <td style="text-align: right; vertical-align: middle;"><img width="20%"
                 data-src="img/icons/website.png" class="no-background" /></td>
