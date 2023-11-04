@@ -2,7 +2,7 @@
 
 # Introducing Pijul
 
-<https://pxhere.com/en/photo/652221>  <!-- .element: class="attribution" -->
+<https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
 
 note: 
 **Time Elapsed:** 2 min.
@@ -94,7 +94,7 @@ One of the main features of Pijul is that its internal representation of reposit
 
 ---
 
-<!-- .slide: data-background="img/snapshot-vs-patch.png" data-background-color="#555" data-background-size="contain"-->
+<!-- .slide: data-background="img/snapshot-vs-patch.png" data-background-color="#555" data-background-size="contain" data-visibility="hidden" -->
 
 <https://www.katacoda.com/ysndr/scenarios/pijul/assets/comparison.png> <!-- .element class="attribution" -->
 

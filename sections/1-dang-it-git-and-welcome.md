@@ -3,12 +3,13 @@
 
 <table>
     <tr>
-        <td style="vertical-align: middle;">Hanno Embregts</td>
-        <td style="text-align: right;"><img width="20%" data-src="img/icons/twitter-white.png" class="no-background"/></td>
+        <td style="text-align: right; vertical-align: middle;" width="45.3%">Hanno Embregts</td>
+        <td style="text-align: left; padding: 0 0 0 0; vertical-align: middle;"><img width="16%" data-src="img/logos/ace-associate-spade.png" class="no-background" style="margin-top: 30px; vertical-align: middle;"/><img width="22%" data-src="img/logos/java-champion.png" class="no-background" style="margin-top: 30px; vertical-align: middle;"/></td>
+        <td style="text-align: right;"><img width="45%" data-src="img/icons/twitter-white.png" class="no-background" style="margin-top: 35px"/></td>
         <td style="vertical-align: middle; padding: 0 0 0 0"><a href="https://www.twitter.com/hannotify">@hannotify</a></td>
     </tr>
 </table>
-<img data-src="img/logos/frontmania.png" width="25%" class="no-background"/>
+<img data-src="img/logos/jfall.png" width="20%" class="no-background"/>
 <br/>
 
 note:
@@ -28,8 +29,9 @@ And this talk is about Pijul, a version control system that could perhaps be an 
 # Yay,
 # Git!
 
-note:
+<https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
 
+note:
 Quick show of hands - who of you is currently using Git?
 And who uses a different version control system?
 
@@ -61,6 +63,8 @@ Well... not particularly!
 # Git!
 
 [dangitgit.com](https://dangitgit.com) <!-- .element: class="fragment" -->
+
+<https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
 
 note:
 Some days it's more like "Dang it, Git!" instead of "Yay, Git!"
