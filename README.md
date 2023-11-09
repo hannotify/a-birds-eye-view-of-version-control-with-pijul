@@ -4,6 +4,7 @@ The slide deck for my conference talk "A Birds-Eye View of Version Control with 
 
 As presented at:
 
+* J-Fall 2023
 * FrontMania 2022
 
 ## Program & target times
