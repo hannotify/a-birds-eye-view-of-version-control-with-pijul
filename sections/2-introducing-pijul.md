@@ -5,7 +5,7 @@
 <https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
 
 note: 
-**Time Elapsed:** 2 min.
+**Time Elapsed:** 3 min.
 
 ---
 
@@ -32,7 +32,7 @@ So let's address the name of this version control system first.
 * fast, because it aims to fix the Darcs performance issues <!-- .element: class="fragment fade-in-then-semi-out" -->
 * interactive recording <!-- .element: class="fragment fade-in-then-semi-out" -->
 
-<https://www.pijul.com> <!-- element: class="attribution" -->
+<https://www.pijul.org> <!-- element: class="attribution" -->
 
 note:
 Darcs is a version control system from 2003 that is also patch-based.

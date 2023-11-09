@@ -4,10 +4,10 @@
 
 * Up and running
 * Recording patches
-* Reordering patches
+* Dependent patches
 
 note:
-**Time Elapsed:** 6 min.
+**Time Elapsed:** 7 min.
 
 ### Up and running
 

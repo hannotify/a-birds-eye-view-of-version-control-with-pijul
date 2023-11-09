@@ -16,11 +16,24 @@ note:
 
 *Voorbereidingen*:
 
-* TODO
+* Verbind Spotlight met de Logitech-software.
+* Eerste scherm:
+  * Speaker notes
+  * Terminal:
+    * Tab met `mirror`
+    * Tab met de slides draaiend
+    * Tab voor pijul - verbonden met Docker-container via `/bin/bash`
+* Tweede scherm:
+  * Slides
+* Telefoon met de demostappen erop
+* Reset de timer in de speaker notes
   
 Hi, my name is Hanno. 
 I work at Info Support as an IT consultant.
-And this talk is about Pijul, a version control system that could perhaps be an alternative to Git.
+I am both an Oracle ACE and a Java Champion.
+I am @hannotify on most social networks - give me a follow.
+
+This talk is about Pijul, a version control system that could perhaps become an alternative to Git.
 
 ---
 
@@ -57,12 +70,31 @@ Well... not particularly!
 
 ---
 
+<!-- .slide: data-background="img/background/git-clunky-interface-tweet.png" data-background-color="black" data-background-size="80%" -->
+
+---
+
+<!-- .slide: data-background="img/background/usb-sticks.jpg" data-background-color="black" data-background-opacity="0.3" data-auto-animate -->
+
+# Yay,
+# Git!
+
+<https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
+
+---
+
 <!-- .slide: data-background="img/background/usb-sticks.jpg" data-background-color="black" data-background-opacity="0.3" data-auto-animate -->
 
 # Dang it,
 # Git!
 
-[dangitgit.com](https://dangitgit.com) <!-- .element: class="fragment" -->
+<div class="fragment">
+<a href="https://dangitgit.com">dangitgit.com</a><br/><small>(by Katie Sylor-Miller)</small>
+</div>
+
+<div class="fragment">
+<a href="https://git-man-page-generator.lokaltog.net/">git-man-page-generator.lokaltog.net</a><br/><small>(by Kim Silkebækken)</small>
+</div>
 
 <https://pxhere.com/en/photo/652221> <!-- .element: class="attribution" -->
 
@@ -76,7 +108,9 @@ To summarise, I don't always like:
   * features we often need are buried in some obscure command-line argument
 * Git's snapshot-based approach when changes travel
   * rebasing or cherry-picking changes commit identities
-  * there's no way to fix a commit once and for all (`git rerere`)
+  * there's no way to fix a conflict once and for all (`git rerere`)
+* Git's many (many!) internal operations that are available to every user, confusing them even more 
+* (slide) The Git Manpage Generator illustates this point nicely :-)
 
 But, you know, as long as there isn't something better available, it'll probably be fine, right?
 

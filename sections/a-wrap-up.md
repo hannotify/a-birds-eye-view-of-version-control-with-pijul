@@ -10,7 +10,7 @@ note:
 ## When Do I Use Pijul?
 
 * For a hobby project, so you can get the feel of it <!-- .element: class="fragment fade-in-then-semi-out" data-fragment-index="1" -->
-* If your team members currently struggle with Git <!-- .element: class="fragment fade-in-then-semi-out" data-fragment-index="2" -->
+* If you and your team members currently struggle with Git <!-- .element: class="fragment fade-in-then-semi-out" data-fragment-index="2" -->
 * If you spend too much time on rebasing, merging and conflict resolution <!-- .element: class="fragment fade-in-then-semi-out" data-fragment-index="3" -->
 * If you can self-host or use the Pijul Nest <!-- .element: class="fragment fade-in-then-semi-out" data-fragment-index="4" -->
 
@@ -24,32 +24,42 @@ A lot of students in my "Git for developers" course are managers, test specialis
 
 ---
 
+### Want To Learn More?
+
+![Foojay Podcast Logo](img/logos/foojay.io.png) <!-- .element: width="30%" -->
+
+"Foojay Podcast #26: The Future of Source Control and CI/CD"
+
+<https://foojay.io/today/foojay-podcast-26/>
+
+---
+
 ## Thank you! 🙂
 
-<table>
-        <tr>
-                <td style="text-align: right; vertical-align: middle;"><img width="20%"
-                        data-src="img/icons/slide-deck.png" class="no-background" /></td>
-                <td style="vertical-align: middle;"><a
-                        href="https://nest.pijul.com/hannotify/a-birds-eye-view-of-version-control-with-pijul">nest.pijul.com/hannotify/a-birds-eye-view-of-version-control-with-pijul</a>
-                </td>
-        </tr>
-    <tr>
-        <td style="text-align: right; vertical-align: middle;"><img width="20%"
+<table style="font-size: 100%">
+<tr>
+        <td style="text-align: right; vertical-align: middle; width: 25%"><img width="15%"
+                data-src="img/icons/slide-deck.png" class="no-background" /></td>
+        <td style="vertical-align: middle;"><a
+                href="https://hanno.codes/slides/pijul/jfall-2023">https://hanno.codes/slides/pijul/jfall-2023</a>
+        </td>
+</tr>                   
+<tr>
+        <td style="text-align: right; vertical-align: middle;"><img width="15%"
                 data-src="img/icons/website.png" class="no-background" /></td>
         <td style="vertical-align: middle;"><a
                 href="https://hanno.codes">hanno.codes</a></td>
-    </tr>
-    <tr>
-        <td style="text-align: right; vertical-align: middle;"><img width="20%"
+</tr>
+<tr>
+        <td style="text-align: right; vertical-align: middle;"><img width="15%"
                 data-src="img/icons/twitter-white.png" class="no-background" /></td>
         <td style="vertical-align: middle;"><a
                 href="https://www.twitter.com/hannotify">@hannotify</a></td>
-    </tr>
-    <tr>
-        <td style="text-align: right; vertical-align: middle;"><img width="20%"
+</tr>
+<tr>
+        <td style="text-align: right; vertical-align: middle;"><img width="15%"
                 data-src="img/icons/envelope.png" class="no-background" /></td>
         <td style="vertical-align: middle;"><a
-                href="mailto:hanno.embregts@infosupport.com">hanno.embregts@infosupport.com</a></td>
-    </tr>
+                href="">hanno&#8203.&#8203embregts&#8203@&#8203infosupport&#8203.&#8203com</a></td>
+</tr>
 </table>
